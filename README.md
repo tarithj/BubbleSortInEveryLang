@@ -54,7 +54,7 @@ Here's a dry run through of  the algorithm in sorting the array `[ 21 ,50 ,12 ,3
 [ 12 , 21 , 30 , 31 ,  **40 , 50** , 61 ] since,  40 < 50 No Swap  
 [ 12 , 21 , 30 , 31 ,  40 , **50 , 61** ] since,  50 < 61 No Swap
 
-_**Note:** Although our array is completely sorted here, the algorithm does'nt know it yet. It needs  **one pass with no swaps** to conclude it's operation._
+_**Note:** Although our array is completely sorted here, the algorithm doesn't know it yet. It needs  **one pass with no swaps** to conclude it's operation._
 
 ### Fifth Pass:
 
@@ -68,13 +68,13 @@ _**Note:** Although our array is completely sorted here, the algorithm does'nt k
 After **5 Passes** the algorithm concludes and produces the output `[ 12 , 21 , 30 , 31 ,  40 , 50 , 61 ]`
 
 
-# How to contibute?
+# How to contribute?
 
 We ♥ Contributors!
 
 You can solve issues or code an implementation of bubble sort in an language that isn't already implemented in the repository yet.
 
-To ensure your contibutions count,  I implore you to follow the instructions mentioned in the [CONTRIBUTING.md](https://github.com/tarithj/BubbleSortInEveryLang/blob/master/CONTRIBUTING.md)  
+To ensure your contributions count,  I implore you to follow the instructions mentioned in the [CONTRIBUTING.md](https://github.com/tarithj/BubbleSortInEveryLang/blob/master/CONTRIBUTING.md)  
 
 Happy Submissions 🙂
 
