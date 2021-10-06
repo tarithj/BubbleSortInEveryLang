@@ -1,5 +1,7 @@
 # How to Contribute
 
+**`Your code must print this array [21, 50, 12, 31, 61, 40, 30] and print the result after bubble sorting.`**
+
 If you want to contribute to this project, follow the steps below.
 
 
