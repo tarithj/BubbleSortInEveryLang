@@ -74,7 +74,7 @@ We ♥ Contributors!
 
 You can solve issues or code an implementation of bubble sort in an language that isn't already implemented in the repository yet.
 
-To ensure you contibutions count,  I implore you to follow the instructions mentioned in the [CONTRIBUTING.md](https://github.com/tarithj/BubbleSortInEveryLang/blob/master/CONTRIBUTING.md)  
+To ensure your contibutions count,  I implore you to follow the instructions mentioned in the [CONTRIBUTING.md](https://github.com/tarithj/BubbleSortInEveryLang/blob/master/CONTRIBUTING.md)  
 
 Happy Submissions 🙂
 
