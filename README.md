@@ -16,7 +16,7 @@ If this is your first time here, we suggest
 # What is Bubble sort ?
 Bubble Sort is the most basic sorting algorithm, and it operates by frequently swapping nearby components to arrange them in an increasing order.
 
-Here's a dry run through of algorithm in sorting the array `[ 21 ,50 ,12 ,31 ,61 ,40 ,30 ]`
+Here's a dry run through of  the algorithm in sorting the array `[ 21 ,50 ,12 ,31 ,61 ,40 ,30 ]`
 
 ### First Pass:
 
