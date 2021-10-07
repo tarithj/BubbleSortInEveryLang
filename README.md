@@ -1,9 +1,9 @@
-# BubbleSortInEveryLang
+# Bubble Sort In Every Programming Language
 
 This repository contains different implementaions of bubble sort in different programming languages, feel free to **create a PR** if its not already here :) 
 your code must print this array `[21, 50, 12, 31, 61, 40, 30]` and print the result after bubble sorting.
 
-# Git and Github
+# Setting up Git and Github
 If this is your first time here, we suggest 
 * Login / Sign-up to [Github](https://github.com/).
 * Download and install [Git](https://git-scm.com/).
@@ -25,7 +25,7 @@ Here's a dry run through of  the algorithm in sorting the array `[ 21 ,50 ,12 ,3
 [ 21 , 12 , **50** , **31** , 61 , 40 ,30 ]  since,  50 > 31 **Swap** [ 21 , 12 , **31** , **50** , 61 , 40 , 30 ]  
 [ 21 , 12 , 31 , **50** , **61** , 40 , 30 ] since,  50 < 61 No Swap  
 [ 21 , 12 , 31 , 50 , **61** , **40** , 30 ] since,  60 > 40 **Swap** [ 21 , 12 , 31 , 50 , **40** , **61** , 30 ]  
-[ 21 , 12 , 31 , 50 , 40 , **61** , **30** ] since,  61 > 30 **Swap** [ 21 , 12 , 31 , 50 , 40 , **30** , **61** ]  
+[ 21 , 12 , 31 , 50 , 40 , **61** , **30** ] since,  61 > 30 **Swap** [ 21 , 12 , 31 , 50 , 40 , **30** , **61** ]
 
 ### Second Pass:
 
@@ -38,32 +38,32 @@ Here's a dry run through of  the algorithm in sorting the array `[ 21 ,50 ,12 ,3
 
 ### Third Pass:
 
-[ **12 , 21** , 31 , 40 , 30 , 50 , 61 ] since,  12 < 21 No Swap  
-[ 12 , **21 , 31** , 40 , 30 , 50 , 61 ] since,  21 < 31 No Swap  
-[ 12 , 21 , **31 , 40** , 30 , 50 , 61 ] since,  31 < 40 No Swap  
-[ 12 , 21 , 31 , **40 , 30** , 50 , 61 ] since,  40 < 30 **Swap** [ 12 , 21 , 31 , **30, 40 ,**  50 , 61 ]  
-[ 12 , 21 , 31 , 30 ,**40 , 50** , 61 ] since,  40 < 50 No Swap  
-[ 12 , 21 , 31 , 30 , 40 , **50 , 61** ] since,  50 < 60 No Swap  
+[ **12** , **21** , 31 , 40 , 30 , 50 , 61 ]  since,  12 < 21 No Swap  
+[ 12 , **21** , **31** , 40 , 30 , 50 , 61 ]  since,  21 < 31 No Swap  
+[ 12 , 21 , **31** , **40** , 30 , 50 , 61 ]  since,  31 < 40 No Swap  
+[ 12 , 21 , 31 , **40** , **30** , 50 , 61 ]  since,  40 < 30 **Swap** [ 12 , 21 , 31 , **30, 40 ,**  50 , 61 ]  
+[ 12 , 21 , 31 , 30 ,**40** , **50** , 61 ]   since,  40 < 50 No Swap  
+[ 12 , 21 , 31 , 30 , 40 , **50** , **61** ]  since,  50 < 60 No Swap  
 
 ### Fourth Pass:
 
-[ **12 , 21**, 31 , 30 , 40 , 50 , 61 ]   since,  12 < 21 No Swap  
-[ 12 , **21 , 31** , 30 , 40 , 50 , 61 ]  since,  21 < 31 No Swap  
-[ 12 , 21 , **31 , 30**, 40 , 50 , 61 ]   since,  31 > 30 **Swap** [12 , 21 , **30 , 31** ,  40 , 50 , 61 ]  
-[ 12 , 21 , 30 , **31 ,  40**, 50 , 61 ]  since,  31 < 40 No Swap  
-[ 12 , 21 , 30 , 31 ,  **40 , 50** , 61 ] since,  40 < 50 No Swap  
-[ 12 , 21 , 30 , 31 ,  40 , **50 , 61** ] since,  50 < 61 No Swap
+[ **12** , **21**, 31 , 30 , 40 , 50 , 61 ]   since,  12 < 21 No Swap  
+[ 12 , **21** , **31** , 30 , 40 , 50 , 61 ]  since,  21 < 31 No Swap  
+[ 12 , 21 , **31** , **30**, 40 , 50 , 61 ]   since,  31 > 30 **Swap** [12 , 21 , **30 , 31** ,  40 , 50 , 61 ]  
+[ 12 , 21 , 30 , **31** ,  **40**, 50 , 61 ]  since,  31 < 40 No Swap  
+[ 12 , 21 , 30 , 31 ,  **40** , **50** , 61 ] since,  40 < 50 No Swap  
+[ 12 , 21 , 30 , 31 ,  40 , **50** , **61** ] since,  50 < 61 No Swap
 
 _**Note:** Although our array is completely sorted here, the algorithm doesn't know it yet. It needs  **one pass with no swaps** to conclude it's operation._
 
 ### Fifth Pass:
 
-[**12 , 21** , 30 , 31 ,  40 , 50 , 61 ]    since,  12 < 21 No Swap  
-[ 12 , **21 , 30** , 31 ,  40 , 50 , 61 ]   since,  21 < 30 No Swap  
-[ 12 , 21 , **30 , 31** ,  40 , 50 , 61 ]   since,  30 < 31 No Swap  
-[ 12 , 21 , 30 , **31 , 40** , 50 , 61 ]    since,  31 < 40 No Swap  
-[ 12 , 21 , 30 , 31 , **40 , 50** , 61 ]    since,  40 < 50 No Swap  
-[ 12 , 21 , 30 , 31 ,  40 , **50 , 61** ]   since,  50 < 61 No Swap 
+[**12** , **21** , 30 , 31 ,  40 , 50 , 61 ]   since,  12 < 21 No Swap  
+[ 12 , **21** , **30** , 31 ,  40 , 50 , 61 ]  since,  21 < 30 No Swap  
+[ 12 , 21 , **30** , **31** ,  40 , 50 , 61 ]  since,  30 < 31 No Swap  
+[ 12 , 21 , 30 , **31** , **40** , 50 , 61 ]   since,  31 < 40 No Swap  
+[ 12 , 21 , 30 , 31 , **40** , **50** , 61 ]   since,  40 < 50 No Swap  
+[ 12 , 21 , 30 , 31 ,  40 , **50** , **61** ]  since,  50 < 61 No Swap 
 
 After **5 Passes** the algorithm concludes and produces the output `[ 12 , 21 , 30 , 31 ,  40 , 50 , 61 ]`
 
