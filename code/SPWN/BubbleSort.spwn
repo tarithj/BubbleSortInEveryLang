@@ -1,0 +1,15 @@
+bubble_sort = (let array: [@number]) {
+    for j in 0..array.length {
+        for i in 0..array.length - j - 1 {
+            if array[i] > array[i + 1] {
+                array[i] <=> array[i + 1];
+            }
+        }
+    }
+    return array
+}
+
+arr = [21, 50, 12, 31, 61, 40, 30];
+
+$.print(arr)
+$.print(bubble_sort(arr))
